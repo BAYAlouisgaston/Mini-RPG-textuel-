@@ -1,9 +1,11 @@
-# Projet 2 : Mini RGP textuel
+# Projet 2 : Mini RPG textuel (Role Playing Game)
 ## Objectif
 J'ai créé un mini RPG Textuel dans le but de pouvoir tester mes capacités de création d'un système de combat et de narration.
 ## Description
+Jeu de rôle où le joueur est confronté à un choix qui va l'emmener soit à combattre un loup, soit à gagner un objet légendaire.
 ## Elaboration
-Pour réaliser ce mini RPG, j'ai utilisé les bases apprises par la réalisation de la calculatrice et j'ai lu des livres de programmation sur Python pour la logique de calcul.
+La première chose que j'ai faite dans la création de mon code est d'importer le module random. Ce dernier permettra d'intégrer le hasard dans mon jeu, le rendant moins prévisible. Puis, je me suis intéressé à mon système de combat. J'ai créé deux personnages avec leur point de vie de départ : le joueur et le loup. La logique est que lorsque le joueur attaque le loup, les points de vie du loup diminue. Le nombre de point de vie perdu par le loup est déterminé aléatoirement. Si après l'attaque du joueur le loup est encore en vit, le loup attaque le joeur à son tour. Pour le joueur, je lui ai ajouter des potions qu'il pourra utiliser pour se soigner et donc augmenter ses points de vie. L'utilisation de la boucle while m'a permi de faire durer le combat tant que mes deux personnages sont en vie. Ensuite, j'ai créé l'environnement de mon jeu. Le joueur se trouve dans un village et commence avec une potion. Il rencontre un vieux sage qui lui donne une potion gratuite. Dans cette partie, je demande au joueur de faire un choix : soit il reste au village, soit il part à l'aventure dans une grotte. Son choix déterminera la suite du jeu : s'il choisit la grotte alors le système de combat que j'ai crée au début se lance mais, s'il choisit le village alors le jeu s'arrête.
 ## Difficultées rencontrées
+
 ## Compétences acquises
-Lors de la création de ce projet, j'ai appris les règles d'indentation, des boucles while …
+Lors de la création de ce projet, j'ai compris les mécaniques d'un jeu simple notamment la construction des règles du jeu. Aussi, j'ai renforcé ma connaissance du language Python en utilisant le module random, les boucles while ou encore les condition if/else. 
